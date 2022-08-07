@@ -4,13 +4,19 @@
 }
 
 body{
+    background-color: #fff;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
-table{
-    margin: 10%;
-    border: solid 1px black
+.conteiner{
+    display: grid;
+    grid-template-columns: 3rem 3rem 3rem;
 }
-th, td, tr{
-    border: solid 1px black
+.casilla{
+    margin: 5px;
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(112, 112, 255);
 }
+

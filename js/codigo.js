@@ -1,4 +1,9 @@
-let casilla = document.addEventListener(".casilla")
-casilla.onclick =(e) =>{
-    console.log (e)
+
+
+let casilla = document.querySelector(".casilla")
+//console.log(casilla)
+
+
+casilla.onclick = (e) => {
+    console.log(click)
 }
